@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  proxy:
+    image: mlee0210/proxy
+    ports:
+      - "3001:3001"
